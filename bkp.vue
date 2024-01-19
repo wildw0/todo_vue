@@ -47,10 +47,10 @@ import { reactive } from 'vue';
       </div>
     </form>
     <ul class="list-group mt-4">
-      <li class="list-group-item" v-for="tarefa in estado.tarefa">
-        <input :id="tarefa.titulo" :checked="tarefa.finalizada" type="checkbox">
-        <label class="ms-3" :for="tarefa.titulo">
-          {{ tarefa.titulo }}
+      <li class="list-group-item">
+        <input type="checkbox">
+        <label class="ms-3" for="">
+          Estudar CSS
         </label>
       </li>
     </ul>
